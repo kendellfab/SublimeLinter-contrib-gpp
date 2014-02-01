@@ -30,7 +30,7 @@ class GPP(Linter):
 
     syntax = 'c++'
     # cmd = 'g++'
-    executable = None
+    executable = 'g++'
     regex = (
         r':(?P<line>\d+):(?P<col>\d+): (?:(?P<error>(error|fatal error))|(?P<warning>warning)): (?P<message>.+)'
     )
